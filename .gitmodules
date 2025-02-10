@@ -1,0 +1,9 @@
+[submodule "3rdparty/wgpu-native"]
+	path = 3rdparty/wgpu-native
+	url = https://github.com/gfx-rs/wgpu-native
+[submodule "3rdparty/zgpu"]
+	path = 3rdparty/zgpu
+	url = https://github.com/zig-gamedev/zgpu/
+[submodule "3rdparty/zglfw"]
+	path = 3rdparty/zglfw
+	url = https://github.com/zig-gamedev/zglfw

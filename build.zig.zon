@@ -24,12 +24,10 @@
     // internet connectivity.
     .dependencies = .{
         .zglfw = .{
-            .url = "https://github.com/zig-gamedev/zglfw/archive/5aaf806521bbda4385b1041d9448bd0c40192a1c.tar.gz",
-            .hash = "12202db5d18aa92ae61b0e47c11ec517eeb5984d8e2647ff513807ff30a444fef49a",
+            .path = "./3rdparty/zglfw"
         },
         .zgpu = .{
-            .url = "https://github.com/zig-gamedev/zgpu/archive/50be30045ca9f4d9e05aad205d3407209f6eeb44.tar.gz",
-            .hash = "1220e44b32228e968d57e32e2c6a72b80d39b6ebc8ecfbdc9b1d527f94e0b075f976",
+            .path = "./3rdparty/zgpu"
         },
         .dawn_x86_64_windows_gnu = .{
             .url = "https://github.com/michal-z/webgpu_dawn-x86_64-windows-gnu/archive/d3a68014e6b6b53fd330a0ccba99e4dcfffddae5.tar.gz",
